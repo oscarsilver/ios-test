@@ -11,6 +11,8 @@
 		FA19067B203196BB00F061C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19067A203196BB00F061C8 /* ViewController.swift */; };
 		FA190680203196BB00F061C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA19067F203196BB00F061C8 /* Assets.xcassets */; };
 		FA190683203196BB00F061C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA190681203196BB00F061C8 /* LaunchScreen.storyboard */; };
+		FA19068C2031992700F061C8 /* episodes.json in Resources */ = {isa = PBXBuildFile; fileRef = FA19068B2031992700F061C8 /* episodes.json */; };
+		FA19068E2031994A00F061C8 /* podcasts.json in Resources */ = {isa = PBXBuildFile; fileRef = FA19068D2031994A00F061C8 /* podcasts.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		FA19067F203196BB00F061C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA190682203196BB00F061C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA190684203196BB00F061C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA19068B2031992700F061C8 /* episodes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = episodes.json; sourceTree = "<group>"; };
+		FA19068D2031994A00F061C8 /* podcasts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = podcasts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +56,24 @@
 		FA190677203196BB00F061C8 /* Afripods Light */ = {
 			isa = PBXGroup;
 			children = (
+				FA19068A203198F300F061C8 /* Resources */,
 				FA190678203196BB00F061C8 /* AppDelegate.swift */,
 				FA19067A203196BB00F061C8 /* ViewController.swift */,
 				FA19067F203196BB00F061C8 /* Assets.xcassets */,
 				FA190681203196BB00F061C8 /* LaunchScreen.storyboard */,
 				FA190684203196BB00F061C8 /* Info.plist */,
 			);
-			path = "Afripods Light";
+			name = "Afripods Light";
+			path = "Afripods-Light";
+			sourceTree = "<group>";
+		};
+		FA19068A203198F300F061C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA19068B2031992700F061C8 /* episodes.json */,
+				FA19068D2031994A00F061C8 /* podcasts.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA190670203196BB00F061C8 /* Build configuration list for PBXProject "Afripods Light" */;
+			buildConfigurationList = FA190670203196BB00F061C8 /* Build configuration list for PBXProject "Afripods-Light" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +135,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA19068C2031992700F061C8 /* episodes.json in Resources */,
 				FA190683203196BB00F061C8 /* LaunchScreen.storyboard in Resources */,
+				FA19068E2031994A00F061C8 /* podcasts.json in Resources */,
 				FA190680203196BB00F061C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Afripods Light/Info.plist";
+				INFOPLIST_FILE = "Afripods-Light/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ddnd.afripodslight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,7 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Afripods Light/Info.plist";
+				INFOPLIST_FILE = "Afripods-Light/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ddnd.afripodslight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA190670203196BB00F061C8 /* Build configuration list for PBXProject "Afripods Light" */ = {
+		FA190670203196BB00F061C8 /* Build configuration list for PBXProject "Afripods-Light" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA190685203196BB00F061C8 /* Debug */,
